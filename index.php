@@ -133,8 +133,7 @@ get_header(); ?>
                         <!-- Widget Section -->
                         <div class="widget">
 
-                        <?php dynamic_sidebar( 'sidebar-1' ) ?>
-                        <?php dynamic_sidebar( 'sidebar-2' ) ?>
+                       <?php get_sidebar();?>
                             <!-- Widget seven -->
                             <div class="widget-seven">
                                 <div class="wrapper">
